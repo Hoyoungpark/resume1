@@ -128,8 +128,5 @@ section {
     .title-text, .year-text {
         font-size: 18px;
     }
-    .responsive-iframe {
-        width: 100%; /* 모바일에서는 화면 꽉 채움 */
-        height: 100%; /* 모바일에서는 화면 꽉 채움 */
-    }
+    
 }
