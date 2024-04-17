@@ -83,7 +83,7 @@ section {
 }
 .youtube-container {
     position: relative;
-    width: 100%;
+    width: 70%;
     padding-bottom: 56.25%; /* 이 부분이 비디오 컨테이너의 높이를 결정합니다. 필요에 따라 조절할 수 있습니다. */
     height: 0;
     margin-bottom: 0px; /* 하단 간격을 줄이려면 이 값을 줄이세요. 예: 10px, 5px, 또는 0px */
