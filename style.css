@@ -51,9 +51,21 @@ section {
     margin-bottom: 35px; /* 더 크게 조정 */
 }
 
-.about-me-text, .desc-text, .desc-subtext {
+.about-me-text {
     font-size: 16px; /* 더 크게 조정 */
     line-height: 24px; /* 더 크게 조정 */
+}
+
+.desc-text {
+    font-size: 16px; /* 더 크게 조정 */
+    line-height: 24px; /* 더 크게 조정 */
+}
+
+.desc-subtext {
+    font-size: 16px; /* 더 크게 조정 */
+    line-height: 24px; /* 더 크게 조정 */
+    padding-left: 16px;
+
 }
 
 .title-text, .year-text {
@@ -102,10 +114,17 @@ section {
         font-size: 20px;
     }
 
-    .about-me-text, .desc-text, .desc-subtext {
+    .about-me-text {
         font-size: 18px;
     }
 
+    .desc-text {
+        font-size: 18px;
+    }
+    .desc-subtext {
+        font-size: 18px;
+        padding-left: 12px;
+    }
     .title-text, .year-text {
         font-size: 18px;
     }
