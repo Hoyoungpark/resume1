@@ -101,7 +101,7 @@ section {
 @media (max-width: 768px) {
     .youtube-container {
         margin-bottom: 0px !important;
-        width: 70%;
+        width: 100%;
     }
     .mainbox {
         width: 95%;
