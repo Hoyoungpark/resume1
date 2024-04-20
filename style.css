@@ -20,7 +20,9 @@ h1 {
     align-items: center; /* 세로 중앙 정렬 */
     justify-content: space-between; /* 요소들 사이에 공간을 균등하게 분배 */
 }
-
+.desc-subtext + .desc-text {
+    margin-top: 40px; /* 원하는 간격에 따라 이 값을 조정하세요 */
+}
 .year-text {
     margin-left: 10px; /* 필요한 경우 마진 추가 */
 }
@@ -60,24 +62,25 @@ section {
 }
 
 .about-me-text {
-    font-size: 16px; /* 더 크게 조정 */
+    font-size: 15px; /* 더 크게 조정 */
     line-height: 24px; /* 더 크게 조정 */
 }
 
 .desc-text {
-    font-size: 16px; /* 더 크게 조정 */
+    font-size: 15px; /* 더 크게 조정 */
     line-height: 24px; /* 더 크게 조정 */
+
 }
 
 .desc-subtext {
-    font-size: 16px; /* 더 크게 조정 */
+    font-size: 15px; /* 더 크게 조정 */
     line-height: 24px; /* 더 크게 조정 */
     padding-left: 16px;
 
 }
 
 .title-text, .year-text {
-    font-size: 16px; /* 더 크게 조정 */
+    font-size: 18px; /* 더 크게 조정 */
     font-weight: bold;
     color: #282828;
 }
@@ -89,7 +92,7 @@ section {
 }
 
 .flat-wrab p {
-    margin-bottom: 12px; /* 각 문단(p) 요소 하단의 마진 증가 */
+    margin-bottom: 8px; /* 각 문단(p) 요소 하단의 마진 증가 */
 }
 
 .flat-wrab:last-child {
