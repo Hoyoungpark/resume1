@@ -122,8 +122,8 @@ section {
 /* 반응형 디자인을 위한 미디어 쿼리 */
 @media (max-width: 768px) {
     .youtube-container {
-        margin-bottom: 0px !important;
-        width: 150%;
+        margin-bottom: -90px !important;
+        width: 100%;
         padding-bottom: 56.25%; 
     }
     .mainbox {
@@ -136,7 +136,7 @@ section {
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .name-text {
@@ -144,17 +144,17 @@ section {
     }
 
     .about-me-text {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .desc-text {
-        font-size: 18px;
+        font-size: 15px;
     }
     .desc-subtext {
-        font-size: 18px;
+        font-size: 15px;
         padding-left: 12px;
     }
     .title-text, .year-text {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
